@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./estilo.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script src="./script.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+        <title>Jogo da Velha</title>
+    
+    </head>
+
+    <body>
+
+        <section class="container">
+            <div class="jogo d-flex justify-content-center align-items-center  w-100">
+
+                <h1 class="text-white texto display-1">Jogo da velha</h1>
+
+                <div id="jogo">
+                    <div class="linha">
+                        <div class="casa" id="casa1"></div>
+                        <div class="casa" id="casa2"></div>
+                        <div class="casa" id="casa3"></div>
+                    </div>
+                    <div class="linha">
+                        <div class="casa" id="casa4"></div>
+                        <div class="casa" id="casa5"></div>
+                        <div class="casa" id="casa6"></div>
+                    </div>
+
+                    <div class="resultado texto text-center w-100" id="resultado">
+                        
+                    </div>
+                    
+                    <div class="linha">
+                        <div class="casa" id="casa7"></div>
+                        <div class="casa" id="casa8"></div>
+                        <div class="casa" id="casa9"></div>
+                    </div>
+                    
+                    <button id="continuar" class="w-50 continuar linhas">Continuar</button>
+                </div>
+            </div>
+            
+        </section>
+        
+        <section class="controles">
+
+            <div class="text-center">
+                <div class="vitoria row text-white">
+                    <div class="col mt-3">
+                        <h3>X: <span id="x">0</span></h3>
+                    </div>
+                    <div class="col mt-3">
+                        <h3>O: <span id="o">0</span></h3>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <button class="btn-lg btn-success shadow" id="reiniciar">reiniciar</button>
+                </div>
+            </div>
+            
+        </section>
+       
+    </body>
+
+</html>

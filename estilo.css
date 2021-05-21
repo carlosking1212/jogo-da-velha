@@ -1,0 +1,82 @@
+*{
+    overflow:hidden ;
+}
+
+body{
+    color: white;
+    background-image: linear-gradient( 
+        109.6deg,  rgba(116,18,203,1) 
+        11.2%, rgba(230,46,131,1) 
+        91.2% );
+}
+
+
+#jogo{
+    position: relative;
+    top: 50px;
+    width: 603px;
+    min-width: 603px;
+    height: 600px;
+    border: 1px solid white;
+    background-color: rgb(30, 135, 255);
+}
+
+.linha{
+    height: 200px;
+    border-bottom: solid 1px  white;
+}
+
+.casa{
+    width: 200px;
+    height: 100%;
+    border-right: solid 1px white;
+    float: left;
+}
+
+.jogo{
+    height: 90vh;
+    margin: 0 auto;
+}
+
+.resultado{
+    position:absolute;
+    text-align: center;
+    margin: 0 auto;
+    top: 110px;
+    width: 500px;
+}
+
+.linhas{
+    border: 1px solid rgb(58, 255, 8);
+}
+
+h1{
+    position:absolute;
+    top: 10px;
+    margin: auto;
+}
+
+.texto{
+    font-family: 'Pattaya', sans-serif;
+}
+
+.continuar{
+    position: relative;
+    bottom: 350px;
+    right: 25%;
+    left: 25%;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 10px;
+    background-color: yellowgreen;
+    color: white;
+    display: none;
+}
+
+.controles{
+    position: relative;
+    top: -80px;
+    width: 600px;
+    margin: 0 auto;
+}
